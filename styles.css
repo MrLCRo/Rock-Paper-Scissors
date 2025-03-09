@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #faedcd;
+    font-family: DynaPuff;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; 
+    font-size: 70px;
+}
+
+.displayContainer {
+    display: flex;
+    gap: 20px; 
+}
+
+button {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    width: 226px;
+    height: 226px;
+    background-image: url('button.png');
+    font-size: 100px; 
+    text-align: center;
+}
+
+.icon {
+    margin: 0; 
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
